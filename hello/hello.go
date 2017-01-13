@@ -2,8 +2,20 @@ package main
 
 import (
 	"fmt"
+
 )
 
 func main()  {
-	fmt.Println("This is my first try in Go")
+
+	var message string
+
+	message = "Mannis first attempt!"
+
+	var a,b,c int
+	a=1
+	b=2
+	c=3
+	fmt.Println(message, a, b, c)
+
+
 }
